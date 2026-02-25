@@ -1,2 +1,6 @@
 This is my git assignment2.
+<<<<<<< HEAD
 this is updated locally.
+=======
+This is updated at remote
+>>>>>>> 6b9a83b26ce2f9fb92c73f3501685be1550b348c
