@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <feildset>
+      <legend><b>personal_information</b></legend>
+    
+  </head>
+  <body>
+    <form action=submit.html method="post" >
+      <div>
+      <div>
+        
+      <lable for :"text"> Full Name: <lable>
+      <input type ="text" name="text" id="text" required [a-z][A-Z] placeholder="Firstname_Lastname">
+        </div>
+        <div>
+         <lable for :"text area"> About Yourself:<lable>
+           <textarea name="text area " coln=50 rows=5 ></textarea>
+             </div>
+           <div>
+             <lable for :"email"> Email: <lable>
+             <input type = email name="text" id="text" ,required>
+               </div>
+               <div>
+                 <lable for :"password">Password: <lable>
+                <input type = password,name="password" id="password" min="8" max="8" required>
+                  </div>
+                   <div>
+                     <lable for :phonenumber">Phone number: <lable>
+                <input type = tel name="phonenumbe" id="phonenumber" min="10" max= "10" required [0-9]>
+                  <div>
+                  <lable for :"website"> URL: <lable>
+                <input type = url name="website" id="url" optional>
+                  </div>
+                    <div>
+                      <lable><b>SKILLS & PREFERENCE</b></lable>
+                    </div>
+                    <div>
+                      <lable>skills:<lable>
+                        </div>
+                        <div>
+                     <lable for: "HTML">HTML<lable>
+                       <input type ="checkbox",name="skills",id="HTML",value="HTML"checked>
+                       </div>
+                       <div>
+                   <lable for: "css">CSS<lable>
+    <input type="checkbox",name="skills",id="css",value="css">
+      </div>
+      <div>                                   
+      <lable for: "javascript">JAVASCRIPT<lable>
+  <input type="checkbox",name="skills",id="javascript",value="javascript">
+        </div>
+                                                                         <div>
+  <input type="radio",name="gender",id="gender",value="Male">
+   <lable for :"gender">male<lable>                               
+    <input type="radio",name="gender",id="ender2",value="feMale" checked>
+   <lable for :"gender">female</lable> 
+    </div>   
+    <div>
+        <lable for:"color">Preffered color:</lable>
+        <input type="color",name="color",id="color",value="black">
+    </div>   
+    <div>
+      <lable for:"range">Experiance Level:</lable>
+      <input type="range" name="range" id="range" value="2" min=0 max=10 steps=2 oninput="this.nextElementSibling.innerText = this.value" > 
+      <span>2</span>
+    </div>      
+    <div>
+      <lable for:"search">Search intrest:</lable>
+      <input type ="search" name =search id=" search" placeholder="Enter your intrest" optional>
+    </div>    
+    <div>
+      <lable for :dob>Date Of Birth</lable>
+      <input type="date" name="DOB" ID="DOB" max="2005/01/31"  required>
+    </div>                                        
+    <div>
+      <lable for :time>Avilable Time</lable>
+      <input type="time" name="avlTime" id="avlTime" max="18:30" min="9:00">
+    </div>   
+    <div>
+     <label for join date:>Joining Date:</label>
+        <input type="date" name="joining_date" id=joindate min="2026-01-01" max="2026-01-31"
+               value="2026-01-09"
+               required>
+        </div>
+        <div>
+           <label for : trainning week >Training Week:</label>
+        <input type="week" name="training_week" id="trainning week"  value="2026-W07" >
+       
+        </div>
+        <div>
+          <label for :interview slot>Interview Slot:</label>
+        <input type="datetime-local" name="interview_slot" id="interview slot">
+    
+      
+        <label for="select"> select Technology:</label>
+    <select name="select " id="select"  required>
+        <option value="">Select Technology</option>
+        <option value=".Net">.Net</option>
+        <option value="Angular">Angular</option>
+        <option value="Java">Java</option>
+        <option value="ReactJS">ReactJS</option>
+        <option value="QA">QA</option>
+    </select>
+</div>
+<div>
+  <lable for:resume>Resume(upload .pdf or .jpg or.jpeg):</lable>
+  <input type="file" name="file" id="file" accept=".pdf,jpg"  required>
+</div>
+<div>
+  <lable for:hidden feild>Hidden</lable>
+  <inpput type="hidden" name="userid" id="hidden" value="123">
+</div>
+
+<div>
+  <button type="submit">Submit</button>
+</div>
+<div>
+  <button type="reset">Reset</button>
+</div>
+<div>
+  <butto type="button"></button>
+</div>
+    </form>
+
+</body>
+</html>
+           
+                         
+                      
+        
+                      
+                    
+                  
+                     
