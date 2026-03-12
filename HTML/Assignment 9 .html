@@ -1,0 +1,87 @@
+<html>
+    <title>Assignment 9 </title>
+    <head>
+<label>This is Assignment 9</label>
+<style>
+    body{
+       height: 2000px;
+        background:linear-gradient(antiquewhite);
+    }
+.box1
+{
+
+width:120px;
+height:80px;
+background:pink;
+position:absolute;
+right:20px;
+top:20px;
+transform:skew(20deg);
+text-align:center;
+font-size: larger;
+}
+.box2{
+width:120px;
+height:80px;
+background:rgb(192, 144, 192);
+position:absolute;
+left:45%;
+top:300px;
+color:white;
+z-index: 2;
+}
+.box3{
+width:220px;
+height:120px;
+background:rgb(215, 215, 151);
+position:fixed;
+right:20px;
+bottom:20px;
+font-size: larger;
+}
+.box3:hover{
+  background-color:aqua;
+    transform: scale(1.5);
+}
+.box4{
+width:80px;
+height:120px;
+background:orange;
+position:relative;
+left:10px;
+top:10px;
+}
+.box5{
+width:200px;
+height:120px;
+background:lightblue;
+position:sticky;
+top:20px;
+left:20%;
+
+}
+.box6{
+width:80px;
+height:80px;
+background:violet;
+position:absolute;
+left:50%;
+top:350px;
+z-index: 1;
+}
+.box6:hover{
+z-index:10;
+transform:scale(1.4);
+background:red;
+}
+</style>
+    </head>
+    <body>
+        <div class="box1">Box 1 Absolute</div>
+<div class="box2">Box 2</div>
+<div class="box3">Box 3 Fixed Scale</div>
+<div class="box4">Box 4</div>
+<div class="box5">Box 5 Sticky</div>
+<div class="box6">Box 6</div>
+    </body>
+</html>
