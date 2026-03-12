@@ -1,0 +1,89 @@
+   
+.intro::first-letter
+{
+color:blueviolet ;
+font-size: 50px;
+font-weight: bold;
+}
+#news::first-line
+{
+    background: yellowgreen;
+    font-weight: bold;
+
+}
+.note::before 
+{
+    content: "Note:";
+color: red;
+}
+.copy::after
+{
+    content: "@2026";
+}
+ul li:first-child
+{
+    color: red;
+   
+}
+ul li:last-child
+{
+   
+    color: blue;
+}
+ul li:nth-child(2)
+{
+    font-weight: bold;
+}
+ul li:nth-child(odd)
+{
+    background-color:aliceblue
+}
+ul li:nth-child(even)
+{
+    background-color: rgb(154, 210, 210);
+}
+a[target="_blank"]
+{
+    color: red;
+}
+a[href^="https"] 
+{
+    font-weight: bold;
+}
+a:hover
+{
+    color: orange;
+}
+img[src*=".jpg"] 
+{
+    border:2px solid aquamarine;
+}
+input[placeholder*="Firstname_Lastname"]
+{
+    background-color:lightgray
+
+}
+div p
+ {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div > p
+{
+    background-color:lightpink ;
+}
+h2+p{
+    color: darkolivegreen;
+}
+h2~p{
+   font-style: italic;
+}
+input:focus
+{
+background-color: lightcyan;
+border-color :2px solid blue;
+}
+input:checked+label
+{
+color: blue;
+font-weight: bold;
+}
